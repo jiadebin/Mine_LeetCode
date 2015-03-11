@@ -22,7 +22,6 @@ Solution:利用一个stack，把具有递增趋势的元素压栈，一旦遇到
         弹栈时顺便计算以当前元素作为最小高度的面积值,计算时以栈中下面元素作为左边界，以当前遍历处为右边界；
         最后遍历完，如果栈里还有元素，就依次弹栈并计算
 时间复杂度：由于每个元素只进栈、出栈一次，故为 O(logN)
-参考：http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
 */
 class Solution {
 public:
