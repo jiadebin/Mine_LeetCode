@@ -5,6 +5,8 @@
 
 using namespace std;
 
+//set其实不适合当做heap来使用，因为它是红黑树实现的，而红黑树本质是二分排序树，root节点不是最大/小值
+
 int main()
 {
     int arr[] = {5, 6, 1, 2, 8};
